@@ -26,8 +26,8 @@ def sample_mask(idx, l):
     return np.array(mask, dtype=np.bool)
 
 def get_splits(y):
-    idx_train = range(7000)
-    idx_val = range(7000,7999)
+    idx_train = range(6400)
+    idx_val = range(6400,7999)
     idx_test = range(8000, 9599)
     y_train = np.zeros(y.shape)
     y_val = np.zeros(y.shape)
